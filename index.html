@@ -1,0 +1,48 @@
+<!DOCTYPE html><html lang="en"><head>
+  <script src="libraries/p5.js"></script>
+  <script src="libraries/p5.dom.min.js"></script>
+  <script src="libraries/matter.js"></script>
+  <script src="libraries/p5.play.js"></script>
+
+  <script src="js/form.js"></script>
+<!--Link game.js e player.js-->
+  <script src = "js/game.js"></script>
+  <script src = "js/player.js"></script> 
+
+  <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-database.js"></script>
+
+<!--Adicione configuração do banco de dados abaixo-->
+
+<script>
+  // Import the functions you need from the SDKs you need
+  
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyB6dJjJgxwlyod6RUxPjueXYFl6-KmjeF0",
+    authDomain: "apanhadordefrutas.firebaseapp.com",
+    databaseURL: "https://apanhadordefrutas-default-rtdb.firebaseio.com",
+    projectId: "apanhadordefrutas",
+    storageBucket: "apanhadordefrutas.appspot.com",
+    messagingSenderId: "593197500110",
+    appId: "1:593197500110:web:90c3d2d9a48388d96af29f"
+  };
+
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+
+</head>
+<body>
+  <script src="sketch.js"></script>
+
+
+
+</body></html>
